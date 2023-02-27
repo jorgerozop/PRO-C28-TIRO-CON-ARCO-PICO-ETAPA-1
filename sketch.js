@@ -48,10 +48,10 @@ function draw() {
   Engine.update(engine);
 
   // Título
-  fill("#FFFF");
+  fill("red");
   textAlign("center");
-  textSize(80);
-  text("TIRO CON ARCO ÉPICO", width / 2, 100);
+  textSize(30);
+  text("TIRO CON ARCO ÉPICO", width / 2, 50);
 
  
   playerBase.display();
